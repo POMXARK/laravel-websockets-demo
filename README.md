@@ -17,6 +17,12 @@ mysql 8
 5. `php artisan key:generate`
 6. `php artisan websockets:serve`
 
+or
+
+1. docker-compose -p laravel-websockets-demo up -d --build
+2. in docker terminal: php artisan websockets:serve
+
+
 ![img.png](img.png)
 
 ## Credits
