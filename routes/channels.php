@@ -11,6 +11,8 @@
 |
 */
 
-Broadcast::channel('chat', function ($user) {
-	return $user;
-});
+//use Illuminate\Support\Facades\Broadcast;
+
+//Broadcast::channel('chat', function ($user) {
+//	return $user;
+//});

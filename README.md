@@ -6,12 +6,18 @@ Be sure to check out the [official documentation](https://docs.beyondco.de/larav
 
 ## Usage
 
+Composer version 1.10.26
+PHP 7.1
+mysql 8
+
 1. Clone this repository
-2. `composer install`
+2. `php composer.phar install`
 3. `cp .env.example .env`
 4. `php artisan migrate`
 5. `php artisan key:generate`
 6. `php artisan websockets:serve`
+
+![img.png](img.png)
 
 ## Credits
 
